@@ -2,51 +2,55 @@
 	width: 100%;
 	height: 100%;
 	background-color:#fe99ef;
+	
 }
 
 header {
 	width: 100%;
 	height: 10%;
 	margin-top: 3%;
+	word-wrap:normal;
 }
 
 h1 {
+  	font-size: clamp(3em, 4em + 1vw, 1.5em);
 	display: fixed;
 	width: 100%;
 	height: 80%;
 	font-family: 'Pacifico', cursive;
-	font-size: 4em;
 	text-align: center;
 }
 
 body {
 	position: absolute;
 	max-width: 100%;
-	min-width: 100%;
+	min-width: 50%;
 	margin: auto;
 }
 
 div {
 	text-align: center;
-	max-height: 85%;
+	max-height: 75%;
 	top: 0px;
 }
 
 #misto {
 	position: relative;
+	width: 100%;
+	height: 80%;
 	max-width: 600px;
 	max-height: 600px;
 	left: auto;
 	right: auto;
-	top: 10%;
+	top: 20%;
 }
 
 .rodape {
 	width: 100%;
 	height: 100px;
 	position: relative;
-	top: -90px;
-	font-size: 20px;
+	top: 0%;
+	font-size: 1em;
 }
 
 footer {
